@@ -92,7 +92,7 @@ app.get("/data1",(req,res) => {
 // between last api and listen
 
 app.use((req,res) => {
-    res.status(400).json({msg:"Invalid Route or Invalid Method"});
+    res.status(404).json({msg:"Invalid Route or Invalid Method"});
     res.status
 })
 app.listen(PORT,() => {
