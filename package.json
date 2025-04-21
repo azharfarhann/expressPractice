@@ -1,0 +1,25 @@
+{
+  "name": "expresspractice",
+  "version": "1.0.0",
+  "description": "this is a express practice repo",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodmeon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharfarhann/expressPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azharfarhann/expressPractice/issues"
+  },
+  "homepage": "https://github.com/azharfarhann/expressPractice#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
